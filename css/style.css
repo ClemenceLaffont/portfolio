@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Kaushan+Script');
+
+/*font-family: 'Josefin Sans', sans-serif;
+font-family: 'Kaushan Script', cursive;*/
+
+body {
+    margin: 0px;
+    background: url(../img/fond.jpg) no-repeat fixed center;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+}
+
+#accueil {
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+@keyframes imgaccueil {
+    0% {
+        opacity: 0;
+    }
+    8% {
+        opacity: 0;
+    }
+    24% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+#accueil img {
+    height: 70vh;
+    margin: 10vh;
+    animation: imgaccueil 3s ease;
+}
+
+@keyframes accueil {
+    0% {
+        margin-left: 0vh;
+        margin-right: 0vh;
+        width: 0px;
+        opacity: 0;
+        height: 300px;
+    }
+    30% {
+        margin-left: 0vh;
+        margin-right: 0vh;
+        width: 0px;
+        opacity: 0;
+        height: 300px;
+    }
+    55% {
+        margin-left: 10vh;
+        margin-right: 20vh;
+        width: 100%;
+        height: 120px;
+        opacity: 0;
+    }
+    70% {
+        height: 120px;
+        opacity: 1;
+    }
+    75% {
+        height: 120px;
+        opacity: 1;
+    }
+    100% {
+        height: 468px;
+    }
+}
+
+#accueil nav {
+    margin-left: 10vh;
+    margin-right: 20vh;
+    display: flex;
+    flex-direction: column;
+    animation: accueil 3s ease;
+    overflow: hidden;
+    max-width: 350px;
+    max-height: 368px;
+    width: 350px;
+    height: 468px;
+}
+
+.nav_index {
+    font-size: 1.8em;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+.nav_index:hover {
+    margin-left: 10px;
+    text-decoration: line-through;
+}
+
+#accueil h1 {
+    font-size: 3em;
+    font-family: 'Kaushan Script', cursive;
+}
+
+#accueil i {
+    padding: 20px 30px 20px 10px;
+    opacity: 0.7;
+    transition: 0.2s ease;
+    color: white;
+    text-decoration: none;
+}
+
+i:hover {
+    opacity: 1;
+}
+
+header nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+
+.cotenav {
+    display: flex;
+    flex-direction: column;
+}
+
+header img {
+    height: 100px;
+}
+
+#centrenav {
+    margin: 10px 0px;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    border: 1px solid white;
+    padding: 15px;
+    text-align: center;
+}
+
+.headernava {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    width: 130px;
+    font-size: 1.3em;
+}
+
+.headernava:hover {
+    text-decoration: line-through;
+}
+
+.navdroite {
+    text-align: right;
+}
+
+.navhaut {
+    border-bottom: 1px solid white;
+}
+
+header div {
+    padding-left: 15px;
+}
+
+header i {
+    padding: 21px 5px;
+    color: white;
+    font-size: 1.3em;
+    opacity: 0.7;
+}
+
+main {
+    flex-grow: 1;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    margin: 20px;
+    padding: 20px;
+    width: 70%;
+    background: linear-gradient( to left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.7) 15%, rgba(0, 0, 0, 0.7) 85%, rgba(0, 0, 0, 0) 100%);
+}

@@ -20,8 +20,12 @@
     <header>
         <nav>
             <section class="cotenav">
-                <a href="header.html" class="headernava navdroite navhaut">Présentation</a>
-                <a href="header.html" class="headernava navdroite">Catalogue</a>
+                <a href="header.html" class="headernava navdroite navhaut <?php
+                if ($page == 'presentation') { echo 'line';}
+                ?>">Présentation</a>
+                <a href="header.html" class="headernava navdroite <?php
+                if ($page == 'catalogue') { echo 'line';}
+                ?>">Catalogue</a>
             </section>
             <a href="index.html">
                 <section id="centrenav">
@@ -29,7 +33,9 @@
                 </section>
             </a>
             <section class="cotenav">
-                <a href="header.html" class="headernava navhaut">Contact</a>
+                <a href="header.html" class="headernava navhaut <?php
+                if ($page == 'contact') { echo 'line';}
+                ?>">Contact</a>
                 <div>
                     <a href="#"><i class="fa fa-github fa-1g" aria-hidden="true"></i></a>
                     <a href="#"><i class="fa fa-facebook-official fa-1g" aria-hidden="true"></i></a>

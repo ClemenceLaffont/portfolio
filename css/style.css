@@ -1,8 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Kaushan+Script');
-
-/*font-family: 'Josefin Sans', sans-serif;
-font-family: 'Kaushan Script', cursive;*/
-
 body {
     margin: 0px;
     background: url(../img/fond.jpg) no-repeat fixed center;
@@ -11,7 +6,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
     color: white;
     box-sizing: border-box;
 }
@@ -20,62 +15,15 @@ body {
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
-}
-
-@keyframes imgaccueil {
-    0% {
-        opacity: 0;
-    }
-    8% {
-        opacity: 0;
-    }
-    24% {
-        opacity: 1;
-    }
-    100% {
-        opacity: 1;
-    }
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
 }
 
 #accueil img {
     height: 60vh;
     margin: 5vh;
     animation: imgaccueil 3s ease;
-}
-
-@keyframes accueil {
-    0% {
-        margin-left: 0vh;
-        margin-right: 0vh;
-        width: 0px;
-        opacity: 0;
-        height: 300px;
-    }
-    30% {
-        margin-left: 0vh;
-        margin-right: 0vh;
-        width: 0px;
-        opacity: 0;
-        height: 300px;
-    }
-    55% {
-        margin-left: 10vh;
-        margin-right: 20vh;
-        width: 100%;
-        height: 71px;
-        opacity: 0;
-    }
-    70% {
-        height: 71px;
-        opacity: 1;
-    }
-    75% {
-        height: 71px;
-        opacity: 1;
-    }
-    100% {
-        height: 468px;
-    }
 }
 
 #accueil nav {
@@ -188,7 +136,7 @@ header i {
     opacity: 0.7;
 }
 
-main {
+.main-view {
     flex-grow: 1;
     border-top: 1px solid white;
     border-bottom: 1px solid white;
@@ -205,7 +153,7 @@ main {
 
 #catalogue {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
 }
@@ -213,103 +161,6 @@ main {
 .popup {
     display: none;
 }
-
-@media only screen and (max-device-width:980px) {
-    #accueil {
-    justify-content: flex-start;
-    flex-direction: column;
-    align-items: center;
-    }
-
-    @keyframes imgaccueilportable {
-        0% {
-            height: 70vh;
-            opacity: 0;
-        }
-        8% {
-            opacity: 0;
-        }
-        24% {
-            opacity: 1;
-        }
-        35% {
-            opacity: 1;
-            height: 70vh;
-        }
-        80% {
-            opacity: 1;
-            height: 30vh;
-        }
-        100% {
-            opacity: 1;
-            height: 30vh;
-        }
-    }
-
-    #accueil img {
-        height: 30vh;
-        margin: 10vh;
-        animation: imgaccueilportable 3s ease;
-    }
-
-    @keyframes accueilportable {
-        0% {
-            opacity: 0;
-        }
-        70% {
-            opacity: 0;
-        }
-        100% {
-            opacity: 1;
-        }
-    }
-
-    #accueil nav {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        animation: accueilportable 3s ease;
-        overflow: hidden;
-        max-width: 90%;
-        max-height: 90%;
-        width: 90%;
-        height: 90%;
-        margin-left: 0vh;
-        margin-right: 0vh;
-    }
-
-    .nav_index {
-        font-size: 1.5em;
-        color: white;
-        padding: 10px;
-        text-decoration: underline;
-
-    }
-
-    .nav_index:hover {
-        margin-left: 0px;
-        text-decoration: underline;
-    }
-
-    #accueil h1 {
-        font-size: 2em;
-        margin: 0px;
-    }
-
-    #accueil i {
-        padding: 20px 30px 20px 10px;
-        opacity: 1;
-        transition: 0.2s ease;
-        color: white;
-        text-decoration: none;
-    }
-
-    #accueil p {
-        margin: 0px;
-        text-align: center;
-    }
-}
-
 
 .popup {
     position: fixed;
@@ -491,62 +342,6 @@ main {
     display: none;
 }
 
-@media only screen and (max-device-width:980px) {
-    main {
-        border-top: none;
-        border-bottom: none;
-        margin: 0px;
-        padding: 0px;
-        width: 100%;
-    }
-
-    header {
-        width: 100%;
-    }
-
-    #menucomplet {
-        display: none;
-    }
-
-    #menumobile {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        background: rgba(0,0,0,0.7);
-        color: white;
-        border-bottom: 1px solid white;
-    }
-
-    #statik {
-        display: flex;
-        width: 100%;
-    }
-
-    #statik div {
-        flex-grow: 1;
-        padding-right: 10px;
-        display: flex;
-        justify-content: flex-end;
-    }
-
-    #statik svg {
-        width: 70px;
-        fill: white;
-    }
-
-    @keyframes deroule {
-        from {
-            height: 0px
-        }
-        to {
-            height: 200px;
-        }
-    }
-
-    #mouvant {
-        display: flex;
-        flex-direction: column;
-        animation: deroule 0.3s ease;
-        overflow: hidden;
-    }
+.projetmobile {
+    display: none;
 }

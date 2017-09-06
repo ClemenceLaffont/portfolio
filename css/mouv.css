@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script|Raleway');
+
+/*font-family: 'Raleway', sans-serif;
+font-family: 'Kaushan Script', cursive;*/
+
+@keyframes deroule {
+    from {
+        height: 0px
+    }
+    to {
+        height: 200px;
+    }
+}
+
+@keyframes imgaccueilportable {
+    0% {
+        height: 70vh;
+        opacity: 0;
+    }
+    8% {
+        opacity: 0;
+    }
+    24% {
+        opacity: 1;
+    }
+    35% {
+        opacity: 1;
+        height: 70vh;
+    }
+    80% {
+        opacity: 1;
+        height: 30vh;
+    }
+    100% {
+        opacity: 1;
+        height: 30vh;
+    }
+}
+
+@keyframes accueilportable {
+    0% {
+        opacity: 0;
+    }
+    70% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes imgaccueil {
+    0% {
+        opacity: 0;
+    }
+    8% {
+        opacity: 0;
+    }
+    24% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes accueil {
+    0% {
+        margin-left: 0vh;
+        margin-right: 0vh;
+        width: 0px;
+        opacity: 0;
+        height: 300px;
+    }
+    30% {
+        margin-left: 0vh;
+        margin-right: 0vh;
+        width: 0px;
+        opacity: 0;
+        height: 300px;
+    }
+    55% {
+        margin-left: 10vh;
+        margin-right: 20vh;
+        width: 100%;
+        height: 71px;
+        opacity: 0;
+    }
+    70% {
+        height: 71px;
+        opacity: 1;
+    }
+    75% {
+        height: 71px;
+        opacity: 1;
+    }
+    100% {
+        height: 468px;
+    }
+}

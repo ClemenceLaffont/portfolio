@@ -12,6 +12,7 @@ include_once("header.html");
         <a href="catalogue.php" class="nav_index">Contact</a>
         <section>
             <a href="https://github.com/ClemenceLaffont"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
+            <a href="https://twitter.com/ClemenceLaffont"><i class="fa fa-twitter fa-1g" aria-hidden="true"></i></a>
             <a href="https://www.linkedin.com/in/clemencelaffont/"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>
             <a href="http://www.viadeo.com/p/0021zucevoj8vb3c"><i class="fa fa-viadeo fa-2x" aria-hidden="true"></i></a>
         </section>

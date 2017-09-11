@@ -45,8 +45,17 @@
     #mouvant {
         display: flex;
         flex-direction: column;
-        animation: deroule 0.3s ease;
         overflow: hidden;
+    }
+
+    .deroule {
+        animation: deroule 0.3s ease;
+        height: 280px;
+    }
+
+    .enroule {
+        animation: enroule 0.3s ease;
+        height: 0px;
     }
 
     #accueil {
@@ -133,5 +142,24 @@
         background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0));
         align-self: center;
         margin: 10px 0px 10px 0px;
+    }
+
+    .lienmenuderoulant {
+        padding: 20px 0px;
+        width: 350px;
+        text-align: center;
+        font-size: 1.5em;
+    }
+
+    #sociauxmenumobil {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 0px;
+        width: 350px;
+    }
+
+    #sociauxmenumobil a {
+        padding: 0px 20px;
     }
 }

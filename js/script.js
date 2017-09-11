@@ -74,3 +74,13 @@ window.addEventListener("keyup", function(e) {
         }
     }
 });
+
+document.querySelector('#deroulant').addEventListener('click', function() {
+    let menu = document.querySelector('#mouvant');
+    if (menu.classList == 'enroule' || menu.style.display == 'none') {
+        menu.style.display = 'flex';
+        menu.classList = 'deroule';
+    } else if (menu.classList == 'deroule') {
+        menu.classList = 'enroule';
+    }
+});

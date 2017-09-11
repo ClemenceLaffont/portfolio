@@ -8,7 +8,16 @@ font-family: 'Kaushan Script', cursive;*/
         height: 0px
     }
     to {
-        height: 200px;
+        height: 280px;
+    }
+}
+
+@keyframes enroule {
+    from {
+        height: 280px
+    }
+    to {
+        height: 0px;
     }
 }
 

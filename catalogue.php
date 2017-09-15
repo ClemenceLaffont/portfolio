@@ -113,7 +113,7 @@ include_once("nav.html");
                         <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 24 30" style="enable-background:new 0 0 24 24;" xml:space="preserve"><g><polygon points="14.691,8.232 12,10.924 9.309,8.232 8.233,9.309 10.924,12 8.233,14.691 9.309,15.768 12,13.077 14.691,15.768    15.767,14.691 13.076,12 15.767,9.309  "/><path d="M12,2.867c-5.036,0-9.133,4.097-9.133,9.133c0,5.036,4.097,9.133,9.133,9.133c5.036,0,9.133-4.098,9.133-9.133   C21.133,6.964,17.036,2.867,12,2.867z M12,19.611c-4.197,0-7.611-3.414-7.611-7.611c0-4.197,3.414-7.611,7.611-7.611   c4.197,0,7.611,3.415,7.611,7.611C19.611,16.197,16.197,19.611,12,19.611z"/></g></svg>
                     </div>
                     <section class="description">
-                        <img src="img/miniature-irene.png"/>
+                        <img src="img/miniature-goldnord.png"/>
                         <section>
                             <h3>Gold Nord</h3>
                             <p><strong>Date de création :</strong> Fevrier - Juillet 2016</p>

@@ -1,0 +1,73 @@
+[
+    {
+        "nom": "Portfolio",
+        "url":"../portfolio",
+        "date":"Avril - Octobre 2017",
+        "langue":"html, css, javascript, php, json",
+        "concept":"Respect de la pureté des langages, responsivité en media queries, repousser les limites de faisabilité", 
+        "commentaire":"Le portfolio sur lequel vous vous trouvez actuellement a aussi été un support d'apprentissage. En tant qu'ancienne graphiste, j'ai voulu explorer les limites qui pouvaient/devaient être fixées au design d'un site pour respecter les normes de compatibilité et d'accessibilité. J'ai aussi voulu pousser au maximum l'utilisation unique des langages pure, sans framework ni librairie pour parfaire mon apprentissage. C'est le projet sur lequel j'ai le plus travaillé, peut-être même un peu trop ...",
+        "img":"img/miniature-portfolio.png"
+    },
+    {
+        "nom": "Accueil SimplonLyon",
+        "url":"../AccueilSimplon",
+        "date":"19 Mai 2017",
+        "langue":"html, css, php, json",
+        "concept":"Affichage dynamique en php, parcourir un dossier en php, lecture d'un fichier json en php, prévoir la responsivité d'un affichage dynamique",
+        "commentaire":"Etant souvent en avance dans la réalisation de mes travaux, les formateurs m'ont demandé de créer une page d'accueil sympa pour le serveur web de Simplon Lyon. La seule contrainte était que cette page devait contenir un lien vers chacun des portfolios des élèves. Par coquetterie, j'ai voulu rajouter une possibilité pour les élèves de personnaliser un minimum le lien qui mènerait vers leur portfolio via un fichier json présent dans leurs dossiers. J'ai été assisté par Valentin Sorlin dans l'installation sur serveur de la page et des derniers réglages.",
+        "img":"img/miniature-simplon.png"
+    },
+    {
+        "nom": "Blog",
+        "url":"../Blog",
+        "date":"Juin 2017",
+        "langue":"html, css, php, json",
+        "concept":"Prémices de la Programmation Orientée Objet, simulation de bases de données avec json, gestion de fichiers avec php", 
+        "commentaire":"Projet de mise en situation du cours sur la POO.",
+        "img":"img/miniature-blog.png"
+    }, 
+    {
+        "nom": "CombatGame",
+        "url":"../combatGame",
+        "date":"Mai 2017","langue":"html, css, javascript",
+        "concept":"Créer et gérer une architecture MVC en javascript, animation et sprite en css", 
+        "commentaire":"Projet personnel assisté qui consistait à créer un jeu de combat en tour par tour afin d'approfondir nos connaissances en javascript.",
+        "img":"img/miniature-game.png"
+    },
+    {
+        "nom": "To Do List",
+        "url":"../ToDoList",
+        "date":"Mai 2017",
+        "langue":"html, css, javascript",
+        "concept":"Approfondir les connaissances sur le MVC en javascript",
+        "commentaire":"A la base c’était un gros exercice pour apprendre à utiliser le DOM en JS. Je suis revenue dessus plus tard pour l'améliorer, le complexifier et surtout, m’entraîner à faire du très joli MVC !",
+        "img":"img/miniature-todo.png"
+    },
+    {
+        "nom": "Train Responsive",
+        "url":"../TrainResponsive",
+        "date":"Avril 2017",
+        "langue":"html, css",
+        "concept":"Structuration html juste et valide W3C, flexbox, responsivité",
+        "commentaire":"Premier projet au sein de Simplon, le but était de découvrir et d'expérimenter le html et css en reproduisant la première page d'un site que l'on aime bien. Comme je connaissais deja le html et le css, je me suis surtout entrainée à faire les choses bien, proprement et complètement responsive. J'en ai profité pour expérimenter la technologie des flexbox que je venais de découvrir.",
+        "img":"img/miniature-responsive.png"
+    },
+    {
+        "nom": "Nounou Irène",
+        "url":"https://nounou-irene.000webhostapp.com/",
+        "date":"Septembre 2017",
+        "langue":"WordPress, php, html, css",
+        "concept":"Création d'un enfant de thème wordpress, création de nouveaux templates, modification du css, rechercher et manipuler un plugin, contenter le client.",
+        "commentaire":"Dans le cadre de notre formation, une semaine a été alouée à l'élaboration d'un projet wordpress pour un client donné, gratuitement et sans engagement de réussite. J'étais dans un groupe de 3 avec Valentin Sorlin et Maëlle LaLicorne et notre cliente était Irène Pédrinis, une assistante maternelle désireuse d'avoir son propre blog. Le projet fut terminé rapidement et sans encombre, nous laissant même le temps le dernier jour d'aller chez la cliente pour lui présenter le produit fini et lui apprendre à l'utiliser. La cliente fut entièrement satisfaite du blog !",
+        "img":"img/miniature-irene.png"
+    },
+    {
+        "nom": "GoldNord",
+        "url":"https://goldnord.fr/",
+        "date":"Fevrier - Juillet 2016",
+        "langue":"Ergonomie, Design, Photoshop",
+        "concept":"Réunions client, collaboration avec des personnes ayant des compétences totalement différentes, maquettage, ergonomie, refonte logo et charte graphique.",
+        "commentaire":"Seul gros projet que j'ai eu à réaliser en tant qu'infographiste indépendante. J'étais au sein d'une équipe composée d'un développeur web, d'une consultante en communication et image de l'entreprise et d'un consultant SEO, tous independants. Gold Nord voulait moderniser son image et améliorer sa plateforme web tout en conservant le plus possible sa popularité et son référencement acquis. J'ai travaillé en tout premier sur la refonte du logo et de la charte graphique en collaboration avec la consultante com. Puis j'ai attaqué la maquette du site web ainsi que la réécriture de la plupart des textes avec le dev. Enfin, j'ai terminé toute seul la déclinaison de la charte sur les differents supports utiles (papeterie, brochure, flyers, stop trottoir, autocollant vitrine ...).",
+        "img":"img/miniature-goldnord.png"
+    }
+]

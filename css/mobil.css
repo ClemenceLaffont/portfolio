@@ -28,18 +28,15 @@
     #statik {
         display: flex;
         width: 100%;
+        justify-content: space-around;
+        align-items: center;
     }
 
-    #statik div {
-        flex-grow: 1;
-        padding-right: 10px;
-        display: flex;
-        justify-content: flex-end;
-    }
 
     #statik svg {
-        width: 70px;
+        width: 60px;
         fill: white;
+        margin-top: 15px;
     }
 
     #mouvant {

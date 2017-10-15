@@ -11,6 +11,10 @@ body {
     box-sizing: border-box;
 }
 
+a {
+    text-decoration: none;
+}
+
 #accueil {
     justify-content: center;
     flex-direction: row;
@@ -52,10 +56,25 @@ body {
     text-decoration: line-through;
 }
 
-#accueil h1 {
+.nav_index:focus {
+    margin-left: 10px;
+    text-decoration: line-through;
+}
+
+.nav_index:target {
+    margin-left: 10px;
+    text-decoration: line-through;
+}
+
+#accueil h1, #menumobile h1 {
     font-size: 3em;
     font-family: 'Kaushan Script', cursive;
     margin: 0px;
+    color: white;
+}
+
+#menumobile h1 {
+    font-size: 2em;
 }
 
 #accueil i {
@@ -74,7 +93,23 @@ body {
     opacity: 1;
 }
 
+#accueil i:focus {
+    opacity: 1;
+}
+
+#accueil i:target {
+    opacity: 1;
+}
+
 i:hover {
+    opacity: 1;
+}
+
+i:focus {
+    opacity: 1;
+}
+
+i:target {
     opacity: 1;
 }
 
@@ -114,6 +149,14 @@ header img {
 }
 
 .headernava:hover {
+    text-decoration: line-through;
+}
+
+.headernava:focus {
+    text-decoration: line-through;
+}
+
+.headernava:target {
     text-decoration: line-through;
 }
 
@@ -262,6 +305,7 @@ header i {
 }
 
 .miniature {
+    display: block;
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center;
@@ -288,6 +332,14 @@ header i {
 }
 
 .hoverprojet:hover {
+    opacity: 1;
+}
+
+.hoverprojet:focus{
+    opacity: 1;
+}
+
+.hoverprojet:target {
     opacity: 1;
 }
 
@@ -334,6 +386,14 @@ header i {
      background-image:linear-gradient(rgba(255,255,255,0.1), rgba(255,255,255,0));
 }
 
+.hoverprojet a:focus {
+     background-image:linear-gradient(rgba(255,255,255,0.1), rgba(255,255,255,0));
+}
+
+.hoverprojet a:target {
+     background-image:linear-gradient(rgba(255,255,255,0.1), rgba(255,255,255,0));
+}
+
 #menucomplet {
     display: flex;
 }
@@ -344,4 +404,13 @@ header i {
 
 .projetmobile {
     display: none;
+}
+
+h1 {
+    margin: 0px;
+    padding: 0px;
+}
+
+h2 {
+    width: 100%;
 }

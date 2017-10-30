@@ -12,9 +12,9 @@
         "nom": "Accueil SimplonLyon",
         "url":"../AccueilSimplon",
         "date":"19 Mai 2017",
-        "langue":"html, css, php, json",
-        "concept":"Affichage dynamique en php, parcourir un dossier en php, lecture d'un fichier json en php, prévoir la responsivité d'un affichage dynamique",
-        "commentaire":"Etant souvent en avance dans la réalisation de mes travaux, les formateurs m'ont demandé de créer une page d'accueil sympa pour le serveur web de Simplon Lyon. La seule contrainte était que cette page devait contenir un lien vers chacun des portfolios des élèves. Par coquetterie, j'ai voulu rajouter une possibilité pour les élèves de personnaliser un minimum le lien qui mènerait vers leur portfolio via un fichier json présent dans leurs dossiers. J'ai été assisté par Valentin Sorlin dans l'installation sur serveur de la page et des derniers réglages.",
+        "langue":"html, css, php, json, sass",
+        "concept":"Affichage dynamique en php, parcourir un dossier en php, lecture d'un fichier json en php, prévoir la responsivité d'un affichage dynamique, apprentissage se SASS",
+        "commentaire":"Etant souvent en avance dans la réalisation de mes travaux, les formateurs m'ont demandé de créer une page d'accueil sympa pour le serveur web de Simplon Lyon. La seule contrainte était que cette page devait contenir un lien vers chacun des portfolios des élèves. Par coquetterie, j'ai voulu rajouter une possibilité pour les élèves de personnaliser un minimum le lien qui mènerait vers leur portfolio via un fichier conf.json présent dans leurs dossiers. J'ai été assisté par Valentin Sorlin dans l'installation sur serveur de la page et des derniers réglages. Dernièrement j'ai du faire la V2 pour complteter les informations présentes sur le site et rendre l'ensemble un peu plus vendeur et sexy. J'en ai profité pour apprendre SASS et j'ai ainsi fait tout le design de la V2 en apprennant au fur et à mesure ce nouveau langage.",
         "img":"img/miniature-simplon.png"
     },
     {
